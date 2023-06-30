@@ -1,0 +1,75 @@
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(img-menu1/donjuanfondo.png);
+    padding: 10px;
+        margin: 10px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        
+}
+.navbar{
+    background-image: url(img-menu1/donjuanfondo11.png);
+    background-size: cover;
+    background-position: 100%;
+    border: 23px outset #ff6550;
+
+        display: flex;
+        justify-content: space-around;
+        padding: 10% 10%;
+        margin-bottom: 3%;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+}
+
+.navbar a{
+    background-color: brown;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+
+        
+.cartas img
+{
+    max-width: 100%;
+    border-radius: 10%;
+    margin-bottom: 3%;
+}
+
+.footer{
+    background-color: rgb(54, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+@media (max-width: 750px)
+    {
+        body
+        {
+            background-image: url(img-menu1/donjuanfondo.png);
+            padding: 10px;
+                margin: 10px;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+        }
+        
+        .cartas img{
+            max-width: 100%;
+        }
+    }
+
